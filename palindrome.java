@@ -1,9 +1,6 @@
-import java.util.Scanner;
 public class palindrome {
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        System.out.print("Enter the ineteger number : ");
-        int num=s.nextInt();
+        int num=14;
         int original=num;
         int reverse=0;
         while (num>0) {
